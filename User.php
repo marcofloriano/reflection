@@ -16,7 +16,7 @@ class User
 		return $this->data;
 	}
 	
-	public function setData($data)
+	public function setData(array $data, $autosave = false)
 	{
 		$this->data = $data;
 	}
